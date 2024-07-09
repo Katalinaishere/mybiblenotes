@@ -1,0 +1,70 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f1e5; /* Light cream background */
+    color: #3d2926; /* Dark brown text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #eae2d5; /* Light beige container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside the container */
+}
+
+#quote-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Lighter cream background for quote box */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: hwb(73 24% 35%); /* Brownish button color */
+    color: #f8f1e5; /* Light cream text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9A4444; /* Lighter brown on hover */
+}
+
+a {
+    color: #8f5c3f; /* Brownish link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+    .note-form {
+        padding: 14px;
+        margin: 10px;
+    }
+    .note-form input[type="text"], 
+    .note-form textarea {
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    .note-form button {
+        padding: 8px;
+    }
+}

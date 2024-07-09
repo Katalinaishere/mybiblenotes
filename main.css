@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #81A263; /* Green pastel color */
+    padding: 10px;
+    text-align: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px; /* Add horizontal margin for spacing */
+}
+
+h1{
+    text-indent: cursive;
+    
+}
